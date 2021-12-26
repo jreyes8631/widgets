@@ -1,12 +1,25 @@
 import React from 'react';  
 import Accordion from './components/Accordion'
 
-function App() {
-  
+const items = [
+  {
+    title: 'What is React',
+    content: 'React us a front ent javascript framework'
+  },
+  {
+    title: 'Why we use it?',
+    conent: 'Because is fun'
+  },
+  {
+    title: 'Do you like it?',
+    content: 'I like React very much'
+  }
+]
 
+function App() {
   return (
     <div className="App">
-     <Accordion/>
+     <Accordion items={items}/>
     </div>
   );
 }
