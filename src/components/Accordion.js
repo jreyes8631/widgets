@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Accordion = () => {
-    return <h1>Accordion</h1>
+const Accordion = ({items}) => {
+    return <h1> there are {items.length} items</h1>
 
 }
 
