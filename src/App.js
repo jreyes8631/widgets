@@ -1,16 +1,13 @@
-import React, { useState } from 'react';  
+import React from 'react';  
 
-function CountApp() {
-  const [count, setCount] = useState(0);  
+function App() {
+  
 
   return (
     <div className="App">
-     <p>You clicked {count} times</p> 
-     <button onClick={() => setCount(count + 1)}> 
-       Click me  
-     </button>
+     <h1>Widgets app</h1>
     </div>
   );
 }
 
-export default CountApp;
+export default App;
