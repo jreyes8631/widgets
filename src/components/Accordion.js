@@ -14,8 +14,9 @@ const Accordion = ({items}) => {
         </div>
     })
        
-    return <h1> there are {items.length} items</h1>
-
+    return <div className="ui styled accordion">
+        {rendereditems}
+    </div>
 }
 
 export default Accordion;
