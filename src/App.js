@@ -8,7 +8,7 @@ const items = [
   },
   {
     title: 'Why we use it?',
-    conent: 'Because is fun'
+    content: 'Because is fun'
   },
   {
     title: 'Do you like it?',
