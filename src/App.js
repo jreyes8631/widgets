@@ -4,7 +4,7 @@ import Accordion from './components/Accordion'
 const items = [
   {
     title: 'What is React',
-    content: 'React us a front ent javascript framework'
+    content: 'React is a front ent javascript framework'
   },
   {
     title: 'Why we use it?',
